@@ -127,3 +127,26 @@ Discards all history and changes back to the specified commit
 
 # The .gitignore file
 Sometimes it may be a good idea to exclude files from being tracked with Git. This is typically done in a special file named `.gitignore`. You can find helpful templates for `.gitignore` files at github.com/github/gitignore.
+
+# Synchronize changes
+Synchronize your local repository with the remote repository on GitHub.com
+```bash
+git fetch
+```
+
+Downloads all history from the remote tracking branches
+```bash
+git merge
+```
+
+Combines remote tracking branches into current local branch
+```bash
+git push
+```
+
+Uploads all local branch commits to GitHub
+```bash
+git pull
+```
+
+Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
