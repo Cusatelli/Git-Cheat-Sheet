@@ -124,3 +124,6 @@ git reset --hard [commit]
 Discards all history and changes back to the specified commit
 
 > CAUTION! Changing history can have nasty side effects.
+
+# The .gitignore file
+Sometimes it may be a good idea to exclude files from being tracked with Git. This is typically done in a special file named `.gitignore`. You can find helpful templates for `.gitignore` files at github.com/github/gitignore.
