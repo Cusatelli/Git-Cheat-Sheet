@@ -109,3 +109,18 @@ git commit -m "[descriptive message]"
 ```
 
 Records file snapshots permanently in version history
+
+# Redo commits
+Erase mistakes and craft replacement history
+```bash
+git reset [commit]
+```
+
+Undoes all commits after [commit], preserving changes locally
+```bash
+git reset --hard [commit]
+```
+
+Discards all history and changes back to the specified commit
+
+> CAUTION! Changing history can have nasty side effects.
