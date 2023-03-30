@@ -76,3 +76,36 @@ git branch -d [branch-name]
 ```
 
 Deletes the specified branch
+
+# Make changes
+Browse and inspect the evolution of project files
+```bash
+git log
+```
+
+Lists version history for the current branch
+```bash
+git log --follow [file]
+```
+
+Lists version history for a file, beyond renames (works only for a single file)
+```bash
+git diff [first-branch]...[second-branch]
+```
+
+Shows content differences between two branches
+```bash
+git show [commit]
+```
+
+Outputs metadata and content changes of the specified commit
+```bash
+git add [file]
+```
+
+Snapshots the file in preparation for versioning
+```bash
+git commit -m "[descriptive message]"
+```
+
+Records file snapshots permanently in version history
