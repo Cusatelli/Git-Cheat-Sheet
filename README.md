@@ -1,6 +1,16 @@
 # Git-Cheat-Sheet
 A summary of useful git commands and other git functions
 
+# Table of Contents
+- [Glossary](#glossary)
+- [Create a Repository](#create-a-repository)
+- [Configure tooling](configure-tooling)
+- [Branches](#branches)
+- [Make changes](#make-changes)
+- [Redo commits](#redo-commits)
+- [The .gitignore files](#the-gitignore-file)
+- [Synchronize changes](#synchronize-changes)
+
 # Glossary
 **git**: an open source, distributed version-control system  
 **GitHub**: a platform for hosting and collaborating on Git repositories  
