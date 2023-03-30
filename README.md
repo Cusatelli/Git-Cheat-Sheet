@@ -53,3 +53,26 @@ $ git config --global color.ui auto
 ```
 
 Enables helpful colorization of command line output
+
+# Branches
+Branches are an important part of working with Git. Any commits you make will be made on the branch you’re currently “checked out” to. Use git status to see which branch that is.
+```bash
+git branch [branch-name]
+```
+
+Creates a new branch
+```bash
+git switch -c [branch-name]
+```
+
+Switches to the specified branch and updates the working directory
+```bash
+git merge [branch]
+```
+
+Combines the specified branch’s history into the current branch. This is usually done in pull requests, but is an important Git operation.
+```bash
+git branch -d [branch-name]
+```
+
+Deletes the specified branch
