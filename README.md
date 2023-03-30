@@ -10,6 +10,7 @@ A summary of useful git commands and other git functions
 - [Redo commits](#redo-commits)
 - [The .gitignore files](#the-gitignore-file)
 - [Synchronize changes](#synchronize-changes)
+- [References](#references)
 
 # Glossary
 **git**: an open source, distributed version-control system  
@@ -171,3 +172,6 @@ git pull
 ```
 
 Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
+
+# References
+1. [Github Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
